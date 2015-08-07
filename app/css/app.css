@@ -7493,13 +7493,33 @@ nav.breadcrumbs {
       margin: 0px; }
 
 .management-page .full-width.hero {
-  background-image: url(../../images/glamping.jpg); }
+  background-image: url(../../images/team.jpg);
+  min-height: 400px; }
   .management-page .full-width.hero .hero h1 {
     font-size: 9rem; }
 
 .management-page nav .center-buttons li:not(.has-form) a:not(.button) {
   text-transform: uppercase;
   padding: 0 2.625rem; }
+
+.management-page .management-header {
+  min-height: 230px; }
+  .management-page .management-header > div {
+    padding-top: 3rem; }
+    .management-page .management-header > div p {
+      color: #838281; }
+
+.management-page .profile-grid .image-block img {
+  width: 100%; }
+
+.management-page .profile-grid .text-block h4 {
+  margin: 1rem auto 0;
+  line-height: 1rem;
+  text-transform: capitalize; }
+
+.management-page .profile-grid .text-block p {
+  margin: .5rem auto 0;
+  line-height: 1rem; }
 
 .news-page .full-width.hero {
   background-image: url(../../images/grass-hero.jpg); }
