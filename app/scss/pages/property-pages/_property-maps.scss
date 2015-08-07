@@ -1,0 +1,40 @@
+.property-maps-page {
+    //background: url(../../images/big-horn-bar.jpg);
+    .full-width.hero {        
+        background-image: url(../../images/palm-canyon-resort.jpg);           
+    }
+    .main-view {
+        padding-top: 3rem;
+        h3 { font-size: 3.5rem; }
+        .toggle-block {
+            padding-top: 1rem;
+            .yellow-btn, .yellow-btn-alt { width: 100%; text-transform: uppercase;  font-size: .9em; }
+            li {padding: 0 .25rem; }
+        }
+        
+    }
+    .toggle-content {            
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 550px;
+        &.google-map { background-image: url(../../images/google-map.jpg); }
+        &.sitemap {
+            background-image: url(../../images/accom-map.jpg);
+            min-height: 700px;
+        }
+            
+            
+        }
+    .content-view {
+        margin-top: 3rem;
+        p.font-grey {
+        margin-bottom: 3rem;
+    }
+        .info-block {
+        h4 {margin-bottom: 0; line-height: 1.5rem;}
+        p  { color: $grey; line-height: 1.25rem; margin-bottom: 0;}
+    }
+        .yellow-btn { width: 100%; text-transform: uppercase; margin-bottom: .5rem;}
+    }
+   
+}

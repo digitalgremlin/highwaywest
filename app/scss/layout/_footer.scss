@@ -1,0 +1,67 @@
+// footer.scss
+.foot {
+    min-height: 145px;
+    .links-nav {
+        margin: 20px 0;
+        border-right: solid #ccc 1px;
+     ul {
+      list-style: none;         
+      padding: 15px;      
+         &.menu-left { margin:0 0 0 100px; }
+         &.menu-right { margin: 0 100px 0 0; }
+         li { margin: 5px 0; 
+             a {color: $blue;
+                 &:hover { color: $grey; text-decoration: underline;}
+             }
+         }
+     }
+    }
+    .join {
+        h4 {
+            margin-top: 40px;
+            padding-left: 40px;
+        }
+        form {
+            fieldset {
+                margin: 0;
+                padding: 2px 2px 2px 40px;
+                border: none;
+                input[type='text'] {
+                    border-right: none;
+                }
+                .join-btn {
+                    border: 1px solid #ccc;
+                    border-left: none;
+                    background-image: url(../../images/arrow-2.png);                    
+                    background-repeat: no-repeat;
+                    background-position: 50% 50%;
+                    min-height: 18px;
+                    min-width: 18px;
+                }
+            }
+            
+        }
+    }
+    .social {
+     margin: 20px 0;
+     border-left: solid #ccc 1px;
+        .social-icons {
+            width: 220px;
+            padding: 55px 0 50px 0;
+            margin: 0 auto;
+            li { 
+                display: inline-block; 
+                min-height: 30px;
+                min-width: 30px;
+                background: white;
+                margin: 0 5px;                   
+                &.fb { background-image: url(../../images/social-fb.png); margin-left: 30px; }
+                &.tw { background-image: url(../../images/social-tw.png); }
+                &.insta { background-image: url(../../images/social-insta.png); }
+                &.pt { background-image: url(../../images/social-pt.png); }
+                &.yt { background-image: url(../../images/social-yt.png);  margin-right: 0;}
+                
+            }
+        }
+    }
+}

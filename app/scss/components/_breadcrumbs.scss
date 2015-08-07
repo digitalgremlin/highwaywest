@@ -1,0 +1,22 @@
+nav.breadcrumbs {
+        background-color: transparent;
+        border: none;
+        padding-left: 0;
+        
+        a {
+            color: $yellow;
+            text-decoration: none;
+            font-size: 1.5rem;
+            
+            &:hover {  }
+            &:before {
+                content: '';
+                background-image: url(../../images/arrow-breadcrumb.png);
+                background-repeat: no-repeat;
+                min-height: 20px;
+                min-width: 20px;
+                display: inline-block;
+            }
+        }
+        
+    }

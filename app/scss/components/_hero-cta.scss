@@ -1,0 +1,15 @@
+//hero + cta.scss
+.full-width.hero {
+    min-height: 550px; 
+    background-image: url(../../images/smores.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;    
+    .hero {
+     padding-top: 150px;
+     width: 100%;
+     
+     color: white;    
+     
+        h1 { color: white; }
+    }
+}

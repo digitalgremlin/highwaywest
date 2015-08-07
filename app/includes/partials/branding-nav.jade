@@ -1,0 +1,25 @@
+<!-- header section -->
+div(class="row header-section collapse" data-magellan-expedition="fixed")
+    div.nav-container.row.full-width
+        a(href="/") 
+            div(class="large-3 large-offset-1 columns logo-section")    
+        dl(class="sub-nav large-7 columns right collapse")
+            dd(data-magellan-arrival="#")
+                a(href="booknstay.html" class="nav-button") BOOK + STAY
+            dd(data-magellan-arrival="#")
+                a(href="experience.html" class="nav-button") THE EXPERIENCE
+            dd(data-magellan-arrival="#") 
+                a(href="blog.html" class="nav-button") BLOG
+div.checkme-block.row.full-width
+    div.large-12.columns.clearfix.show-for-large-up
+        div
+            form.availability-widget
+                formfield
+                    div.large-3.columns
+                        h5.text-right Check Availability
+                    div.large-3.columns
+                        input(type="text" placeholder="Check-In")
+                    div.large-3.columns
+                        input(type="text" placeholder="Check-Out")
+                    div.large-2.columns.left
+                        a.submit-btn Book

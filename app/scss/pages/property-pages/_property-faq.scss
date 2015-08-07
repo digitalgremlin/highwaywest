@@ -1,0 +1,52 @@
+.property-faq-page {
+    //background: url(../../images/big-horn-bar.jpg);
+    .full-width.hero {        
+        background-image: url(../../images/palm-canyon-resort.jpg);           
+    }
+    .faq-block {
+        ul {list-style: none;
+            .hr-divide-blue { background-size: 90%; background-position-x: left; padding: 0;}
+            li {                
+                a {
+                    background-color: transparent;
+                    font-family: $gothic-bold;
+                    color: $blue;
+                    padding: 1rem 0;
+                    
+                    &:after {
+                        content: '';
+                        background-image: url(../../images/plus.png);
+                        background-repeat: no-repeat;
+                        min-height: 33px;
+                        min-width: 34px;
+                        display: inline-block;
+                        float: right;
+                        padding-left: 5px;
+                        
+                    }
+                    &:hover { background-color: transparent;}                    
+                }
+                 &.active {                
+                    a {background-color: transparent;
+                    &:after {
+                        content: '';
+                        background-image: url(../../images/minus.png);
+                        background-repeat: no-repeat;
+                        min-height: 5px;
+                        min-width: 34px;
+                        display: inline-block;
+                        float: right;
+                        padding-left: 5px;
+                    }
+                    &:hover { background-color: transparent;}
+                    
+                }
+            
+            }
+                .content { color: $grey; }
+            }
+                       
+        }
+        
+    }
+}

@@ -1,0 +1,100 @@
+.property-social-page {
+    //background: url(../../images/big-horn-bar.jpg);
+    .full-width.hero {        
+        background-image: url(../../images/palm-canyon-resort.jpg);           
+    }
+    .social-badge-block {
+        margin-top: 2rem;
+        li {
+            &:nth-of-type(1) {
+                background-image: url(../../images/social-badge-1.jpg);
+                background-repeat: no-repeat;
+                min-height: 105px;
+                background-size: auto;
+                background-position: center;
+            }
+            &:nth-of-type(2) {
+                background: url(../../images/social-badge-2.jpg);
+                background-repeat: no-repeat;
+                min-height: 153px;
+                background-size: auto;
+                background-position: center;
+            }
+            &:nth-of-type(3) {
+                background: url(../../images/social-badge-3.jpg);
+                background-repeat: no-repeat;
+                min-height: 61px;
+                background-size: auto;
+                background-position: center;
+            }
+        }
+    }
+    .social-post-block {
+        
+        li {
+            .social-post { margin: 2rem 0; }
+            .post-img {
+                img { min-height: 300px; }
+            }
+            .post-img-2 {
+                img { min-height: 170px; }
+            }            
+            .post-content {
+                min-height: 150px;
+                border: 1px solid #ccc;
+                padding: .5rem;
+                
+                h5 { vertical-align: top; }
+                
+                .type-fb:before {
+                    content: '';
+                    background-image: url(../../images/social-fb.png);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    min-height: 30px;
+                    min-width: 30px;
+                    margin-right: .5rem;
+                }
+                .type-tw:before {
+                    content: '';
+                    background-image: url(../../images/social-tw.png);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    min-height: 30px;
+                    min-width: 30px;
+                    margin-right: .5rem;
+                }
+                .type-in:before {
+                    content: '';
+                    background-image: url(../../images/social-insta.png);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    min-height: 30px;
+                    min-width: 30px;
+                    margin-right: .5rem;
+                }
+                .type-pt:before {
+                    content: '';
+                    background-image: url(../../images/social-pt.png);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    min-height: 30px;
+                    min-width: 30px;
+                    margin-right: .5rem;
+                }
+                .type-yt:before {
+                    content: '';
+                    background-image: url(../../images/social-yt.png);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    min-height: 30px;
+                    min-width: 30px;
+                    margin-right: .5rem;
+                }
+                .time-stamp { font-style: italic; }
+            }
+            
+        }       
+        
+    }
+}

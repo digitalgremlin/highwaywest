@@ -1,0 +1,46 @@
+.management-page {
+    .full-width.hero {
+        background-image: url(../../images/team.jpg); 
+        min-height: 400px;
+        
+        
+        .hero{   
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+    nav {
+        .center-buttons {
+            li:not(.has-form) {                
+                
+                a:not(.button) { text-transform: uppercase; padding: 0 2.625rem;}
+            
+            }
+        }   
+    }
+     .management-header {
+        min-height: 230px;
+        > div { 
+            padding-top: 3rem;
+            p { color: $grey; }
+        }
+    }
+    .profile-grid {
+        .image-block {
+            img { width: 100%;}
+        }
+        .text-block {
+            h4 { 
+                margin: 1rem auto 0;
+                line-height: 1rem;
+                text-transform: capitalize;
+            }
+            p {
+                margin: .5rem auto 0;
+                line-height: 1rem;
+            }
+        }   
+    }
+    
+}
+

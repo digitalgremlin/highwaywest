@@ -1,0 +1,61 @@
+// topography.scss
+@import 'gothic-font';
+@import 'amorie-font';
+
+//font family variables
+
+$gothic-light           : "Trade Gothic W01 Light" !default;
+$gothic-bold            : "Trade Gothic W01 Bold" !default;
+$amorie-font            : "Amorie SC W01 Bold" !default;
+
+//typography defaults and settings
+
+$body-font-color: $blue;
+$body-font-family: $gothic-light;
+
+body{
+ font-family: $gothic-light;
+ color: $blue;      
+}
+a {
+    color: $yellow;
+    &:hover { color: $yellow; }
+}
+h1,h2,h3,h4,h5 {
+ color: $blue;
+ font-family: $gothic-bold;
+ text-transform: uppercase;
+    
+}
+.happy-days {
+    font-family: $amorie-font;   
+}
+.font-gl { font-family: $gothic-light; }
+
+h1.happy-days { font-size: 10rem; text-transform: uppercase; }
+h2.happy-days { font-size: 6rem;  text-transform: uppercase; }
+h3.happy-days { font-size: 3.5rem;  text-transform: uppercase; }
+
+p.happy-days { font-size: 3rem; line-height: 3.5rem; text-transform: uppercase; }
+
+
+.quote-marks { 
+    font-family: Garamond; 
+    font-size: 10rem; 
+    margin-top: -100px; 
+    margin-right: -10px; 
+    text-align: right; 
+    color: white;
+}
+.quote-marks-2 { font-size: 10rem; line-height: 2rem; color: white;}
+
+//font colors
+.font-white { color: white; }
+.font-blue { color: $blue; }
+.font-black { color: black; }
+.font-grey { color: $grey; }
+
+//link colors
+.yellow-link { color: $yellow;
+    &:hover { color: $yellow; text-decoration: underline;}   
+}

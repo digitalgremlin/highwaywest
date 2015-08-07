@@ -1,0 +1,94 @@
+.news-detail-page {
+    .full-width.hero {
+        background-image: url(../../images/grass-hero.jpg);      
+        .hero{   
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+    nav {
+        .center-buttons {
+            li:not(.has-form) {                
+                
+                a:not(.button) { text-transform: uppercase; padding: 0 2.625rem;}
+            
+            }
+        }   
+    }
+    .news-header {
+        padding-top: 2rem;
+        .main-content {
+            .post-block {
+            .post-heading { font-size: 4rem; margin-bottom: 0; line-height: 3rem;}
+                .post-date { margin: 0 auto .5rem; }
+            .post-image {
+                img { margin-bottom: 2rem; }
+            }
+            .post-text {                 
+                color: $grey; 
+                &:last-of-type { margin-bottom: 2rem;}
+            }
+        }
+        .yellow-btn { padding: .625rem 1.625rem; text-transform: uppercase;}
+        .hr-divide-blue { min-width: auto; background-size: 100%; padding: .5rem 0;}
+              nav.breadcrumbs {    
+                
+                  a {                                         
+                  
+                  &:before {
+                content: '';
+                background-image: url(../../images/arrow-triple-yellow.png);
+                background-repeat: no-repeat;
+                 background-position: left 2px;
+                min-height: 30px;
+                min-width: 68px;
+                margin-right: .5rem;
+                display: inline-block;
+                    }
+                  }
+
+            }
+        }
+        
+        
+        .side-bar {
+             form {
+              
+                    margin: 0;
+                    padding: 2px 2px 2px 0;
+                    border: none;
+                    input[type='text'] {
+                        border-right: none;
+                    }
+                    .join-btn {
+                        border: 1px solid #ccc;
+                        border-left: none;
+                        background-image: url(../../images/arrow-2.png);                    
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        min-height: 18px;
+                        min-width: 18px;
+                    }          
+
+            }
+        }
+        h4 {
+            background-image: url(../../images/hr-divide-blue.png);
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            text-indent: .75rem;
+            width: 70%;
+            padding-bottom: .25rem;
+        }
+        .category-list {
+            list-style: none;
+            
+            a { color: $grey;}
+        }
+    }
+    
+    
+   
+    
+}
+

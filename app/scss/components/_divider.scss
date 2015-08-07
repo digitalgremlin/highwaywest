@@ -1,0 +1,41 @@
+.tall-divide { 
+            background-image: url(../../images/vrt-divide-tall.png); 
+            background-repeat: no-repeat;
+            min-height: 378px;
+            min-width: 10px;
+}
+.tall-divide-wht { 
+            background-image: url(../../images/vrt-divide-tall-wht.png); 
+            background-repeat: no-repeat;
+            min-height: 378px;
+            min-width: 10px;
+}
+.small-divide {
+            background-image: url(../../images/vrt-divide.png); 
+            background-repeat: no-repeat;
+            min-height:92px;
+            min-width: 6px;
+}
+.hr-divide-wht {
+    background: url(../../images/hr-divide-wht.png);
+    background-repeat: no-repeat;
+    min-width: 1006px;
+    min-height: 12px;
+}
+.hr-divide-grey {
+    background-image: url(../../images/hr-divide-grey.png);      
+    background-repeat: no-repeat;
+    min-width: 477px;
+    min-height: 13px;
+    padding: 2rem 0;
+    background-position: left center;
+}
+.hr-divide-blue {
+    background-image: url(../../images/hr-divide-blue.png);
+    background-repeat: no-repeat;
+    min-width: 1001px;
+    min-height: 10px;
+    padding: 2rem 0;
+    background-position: left center;
+    background-size: 90%;
+}
