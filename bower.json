@@ -1,0 +1,10 @@
+{
+  "name": "zf5_project",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "font-awesome": "~4.3.0",
+    "slick-carousel": "~1.5.8",
+    "animate.css": "~3.3.1",
+    "jquery": "~2.1.4"
+  }
+}

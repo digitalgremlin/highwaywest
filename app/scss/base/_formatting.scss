@@ -1,0 +1,11 @@
+// formatting.scss
+.row{  
+  &.full-width{    
+    max-width: 100% !important;    
+    .row{
+      margin: 0 auto;
+      max-width: 62.5rem;
+      
+    }   
+  }
+}

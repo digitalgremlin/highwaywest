@@ -1,0 +1,23 @@
+// hero-slider.scss
+.featured {
+    height: 675px;
+        .orbit-container {
+       width: 100%;
+       height: 100%;
+
+        .orbit-slides-container {
+           width: 100%;
+           height: 100% !important;        
+
+            li {
+                width: 100%;
+                height: 100%;            
+                 background-size:cover;
+            }
+        }
+    }
+}
+// slick-sliders
+.slick-slide-block, .slick-slide-block-2 {
+    div { background-size: cover; background-repeat: no-repeat; min-height: 550px;}
+}

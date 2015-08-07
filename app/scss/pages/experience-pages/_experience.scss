@@ -1,0 +1,44 @@
+.experience-page {
+    .full-width.hero {
+        background-image: url(../../images/glamping.jpg);      
+        .hero{   
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+    nav {
+        .center-buttons {
+            li:not(.has-form) {                
+                
+                a:not(.button) { text-transform: uppercase; padding: 0 2.625rem;}
+            
+            }
+        }   
+    }
+    .experience-header {
+        min-height: 230px;
+        > div { 
+            padding-top: 3rem;
+            p { color: $grey; }
+        }
+    }
+    .story-block {
+        background-color: $blue;
+        min-height: 500px;
+        .cta1 {
+            padding-top: 40px;
+            .intro { padding-top: 15px;}            
+            
+        }
+        .post {
+            padding: 40px 0;
+                .post-text {
+                    .quote-marks{ 
+                    line-height: 2rem;
+                    margin-top: 25px;
+                    }
+                }
+            }
+    }
+
+}

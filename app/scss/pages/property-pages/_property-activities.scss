@@ -1,0 +1,19 @@
+.property-activities-page {
+    .full-width.hero {        
+        background-image: url(../../images/palm-canyon-resort.jpg);
+        
+    }
+  
+    .map-block { 
+        iframe{ width: 100%} 
+    }
+    .post-block {
+        padding-top: 3rem;
+        .posts {
+        .post-title { margin: 10px auto 0; }
+        .font-grey { line-height: 1.5rem;}
+         }   
+    }
+   
+
+}

@@ -1,0 +1,123 @@
+.exploreoutdoors-page {
+    .full-width.hero {
+        background-image: url(../../images/outdoors.jpg); 
+        min-height: 400px;   
+        .hero{   
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+    nav {
+        .center-buttons {
+            li:not(.has-form) {                
+                
+                a:not(.button) { text-transform: uppercase; padding: 0 2.625rem;}
+            
+            }
+        }   
+    }
+     .outdoors-header {
+        min-height: 230px;
+        > div { 
+            padding-top: 3rem;
+            p { color: $grey; }
+        }
+    }
+    .filter-block  {        
+        min-height: 235px;
+        
+        h4 { 
+            font-family: $gothic-light; 
+            text-transform: capitalize;
+            background-image: url(../../images/hr-divide-blue.png);
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            text-indent: .75rem;
+            width: 90%;
+            padding-bottom: .25rem;
+            
+        }
+        .container {
+            padding-top: 2rem;
+            ul {
+                
+                list-style: none;
+                li input[type="checkbox"]{ 
+                    margin-bottom: .25rem; 
+                   border-radius: 0;
+                  -moz-border-radius: 0;
+                  -webkit-border-radius: 0;
+                    background-color: white;
+                    -webkit-appearance: checkbox;
+                }
+               
+            }
+         
+        }
+        
+            
+    }
+    .result-section {
+        .results-block {
+            .image{               
+                min-height: 448px;
+                img { width: 100%; height: 448px;}
+            }
+            .content {
+                .arrow-left { 
+                    background-image: url(../../images/arrow-blue.png);
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: -1rem;
+                    left: -2.5rem;
+                    z-index: 9;
+                    height: 107px;
+                    width: 50px;
+                   
+                }
+                .arrow-right { 
+                    background-image: url(../../images/arrow-blue-2.png);                   
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: -1rem;
+                    right: -2.5rem;
+                    z-index: 9;
+                    height: 107px;
+                    width: 50px;
+                   
+                }
+                
+                background-color: $blue;
+                min-height: 448px;
+                color: white;
+                &.content-right { padding: 1rem 5rem 1rem 0rem;}
+                &.content-left { padding: 1rem 0rem 1rem 5rem;}
+                h3 {
+                    color: white;
+                    font-size: 4rem;
+                    line-height: 4.5rem;
+                }
+                h5.destinations {
+                    color: white;
+                    font-family: $gothic-light;
+                    margin: 2rem 0 0;
+                    line-height: 1rem;
+                }
+                p{
+                    line-height: 1.25rem;
+                    margin-bottom: 0rem;
+                }
+                .yellow-btn {
+                    width: 100%;
+                    margin-bottom: 0px;
+                    margin-top: 3rem;
+                    text-transform: uppercase;
+                    padding: 0.75rem 1rem 0.8125rem 1rem;
+                }
+            }
+        }
+      
+    }
+    
+}
+

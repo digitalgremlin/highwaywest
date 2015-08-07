@@ -1,0 +1,134 @@
+// availability widgets
+// fixed page widget block
+ .availability-block {
+        padding: 0;
+        .cta1 { 
+            background-image: url(../../images/texture-bg-1.jpg);
+            background-repeat: repeat-x;            
+            padding: 0;
+            min-height: 110px;
+            .large-7 { 
+                min-height: 110px; 
+                padding-top: 35px;  
+                form {            
+           
+            .large-3 {
+                margin: 0 5px 0 5px; 
+                
+                &:first-of-type { margin-left: 0px; }
+                h5 { padding-top: 10px; text-transform: none; }
+                input {
+                margin: 0;
+                &[type="text"] {
+                    margin: 0 2px 0;                    
+                    background-image: url(../../images/calendar.png);
+                    background-repeat: no-repeat;
+                    background-position: 98% 50%;
+                    min-height: 24px;
+                    min-width: 24px;                    
+               
+                    }                 
+                }
+              
+            }                 
+                .large-2 {
+                    margin: 0 0 0 5px;
+                    
+                     .submit-btn {
+                        margin:0;
+                        width: 100%;
+                        padding-bottom: 7px;
+                        text-transform: uppercase;
+                     }
+             
+                }
+             
+            }
+            
+            }
+            .weather-block {
+                padding: 10px 0;
+                min-height: 110px;
+                .vrt-divide { 
+                    background-image: url(../../images/vrt-divide.png);
+                    background-repeat: no-repeat;
+                    min-height: 92px;
+                    min-width: 6px;
+                    
+                }
+                .large-10 {
+                    h5 { font-family: $gothic-light;}
+                    .temp { 
+                        font-size: 3rem; 
+                        line-height: 1rem;
+                        color: $blue;
+                        margin: 10px 0 0 20px;
+                        
+                    }
+                   .weather-icons {
+                        background-image: url(../../images/cloud.png); 
+                        background-repeat: no-repeat;
+                        min-height: 31px;
+                        min-width: 51px;                        
+                    }
+                        
+                        }                    
+                }                
+            }
+            
+        }
+// animated drop-down widget block
+.checkme-block {
+        position: fixed;
+     z-index: 99;
+        opacity: 0;
+        height: 0;
+        background-image: url(../../images/texture-bg-1.jpg);
+        background-repeat: repeat-x; 
+        background-color: transparent;
+        transition: all .5s ease-in-out;
+     &.checkscroll {
+        opacity: 1;
+         height: 60px;
+     }
+   
+                form { 
+                    padding-top: 10px;
+                    .columns {
+                        height: 0;
+                        transition: all .5s ease-in-out;    
+                        &.checkscroll { height: 100%;}
+                    }
+           
+            .large-3 {
+                margin: 0 5px 0 5px;                
+                &:first-of-type { margin-left: 0px; }
+                h5 {text-transform: none; }
+                input {
+                margin: 0;
+                &[type="text"] {                   
+                    margin: 0 2px 0;                    
+                    background-image: url(../../images/calendar.png);
+                    background-repeat: no-repeat;
+                    background-position: 98% 50%;
+                    min-height: 24px;
+                    min-width: 24px;
+                    }                 
+                }
+              
+            } 
+                
+                .large-2 {
+                    margin: 0 0 0 5px;                    
+                     .submit-btn {
+                        margin:0;
+                        width: 100%;
+                        padding-bottom: 7px;
+                        text-transform: uppercase;
+                     }
+             
+                }
+             
+            }        
+    
+    }

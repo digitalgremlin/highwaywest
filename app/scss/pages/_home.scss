@@ -1,0 +1,59 @@
+//home-page.scss
+.home-page {
+    .featured {
+        //background-image: url(../../images/hero_1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 200px;
+        width: 100%;     
+        color: white;     
+        h1 { color: white; }
+        .book-form{
+            background-color: rgba(27, 59, 90, 0.5);
+            min-height: 80px;
+            padding: 20px 0 20px 50px;
+            form {
+            
+            
+            //padding: 40px;
+            .large-3 {
+             margin: 0 2px 0 2px;                
+                &:first-of-type { margin-left: 0px }
+            }
+            .large-2 { margin: 0 0 0 2px; }
+            input {
+                margin: 0;
+                &[type="text"] {
+             margin: 0 2px 0;   
+            }                 
+            }
+             .learn-more-btn {
+                margin:0;
+                width: 100%;
+                padding-bottom: 7px;
+                text-transform: uppercase;
+             }
+        }
+        }
+        
+    }
+    .full-width.hero {
+        background-image: url(../../images/smores.jpg);  
+        .hero{   
+                
+        }
+    }
+ .testimonial-wrap {
+     > .row {
+     background-image: url(../../images/quote-bg.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;           
+     min-height: 550px;
+     width: 100%;
+     padding-top: 10%;
+         .quote-block {
+             margin-right: 8%;
+         }
+     }
+ }
+}

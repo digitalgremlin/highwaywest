@@ -1,0 +1,76 @@
+.property-accomodations-page {
+    .full-width.hero {        
+        background-image: url(../../images/palm-canyon-resort.jpg);
+       
+    }
+
+    .main-view {
+        .content-block {
+            padding-left: 1rem;
+             
+            > p, > h4 { margin-bottom:.375rem;}            
+            
+            .columns.left { margin-left: 1rem;}
+            .yellow-btn { 
+                width: 100%; 
+                text-transform: uppercase;
+                &:last-of-type {}
+            
+            }
+        }
+        .site-types {
+        padding-top: 1rem;
+            .posts > li { padding: 0 2rem 1rem;}
+            
+        .post-title { margin-bottom: 0; 
+            &::after { 
+                content: ""; 
+                background-image:url(../../images/paw-print.png); 
+                background-repeat: no-repeat; 
+                height: 26px; 
+                width: 26px; 
+                display: inline-block;
+                position: relative;
+                top: 4px;
+                left: 2px;                
+            }
+        }
+        .options-form {
+            padding-top: 2rem;
+            input[type='text'], select {
+                background-image: url(../../images/arrow-1.png); 
+                background-repeat:no-repeat;
+                background-position: 95% 50%;
+            }
+            .orange-btn { width: 100%; }
+            }
+        .hr-divide-grey { background-size: 100%; background-position-x: left; padding: 1rem 0;}
+        }
+    }
+    
+    .secondary-view {
+        padding: 2rem 0 1rem;
+        .content-block {
+            padding-left: 1rem;
+            > p, > h4 { margin-bottom:.375rem;}          
+            
+            .columns.left { margin-left: 1rem;}
+            .yellow-btn { 
+                width: 100%; 
+                text-transform: uppercase;
+                &:last-of-type {}
+            
+            }
+        }        
+   
+       
+    }
+    .hr-divide-blue {background-size: 100%; background-position-x: left; padding: 0;}
+    .map-view {
+    background-image: url(../../images/accom-map.jpg);     
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;    
+    }
+    
+}

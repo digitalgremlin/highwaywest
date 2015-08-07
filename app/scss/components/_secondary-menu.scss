@@ -1,0 +1,26 @@
+.secondary-menu {
+ background-color: $blue;
+    min-height: 2.8125rem;
+    height: auto;
+    .top-bar-section {
+        ul {
+            li {
+                min-width: 6rem;
+                &.active:not(.has-form) {
+                    a:not(.button) {
+                     background-color: $yellow;
+                     text-transform: uppercase;
+                    }
+                }
+                background-color: $blue;
+                a:not(.button) {
+                    background-color: $blue;
+                    text-transform: uppercase;
+                    &:hover {
+                        background-color: $yellow;
+                    }
+                }
+            }   
+        }
+    }
+}

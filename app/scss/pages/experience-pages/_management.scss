@@ -1,0 +1,21 @@
+.management-page {
+    .full-width.hero {
+        background-image: url(../../images/glamping.jpg); 
+        
+        .hero{   
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+    nav {
+        .center-buttons {
+            li:not(.has-form) {                
+                
+                a:not(.button) { text-transform: uppercase; padding: 0 2.625rem;}
+            
+            }
+        }   
+    }
+    
+}
+

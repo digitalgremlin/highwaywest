@@ -1,0 +1,81 @@
+.exploreoutdoors-detail-page {
+    .full-width.hero {
+        background-image: url(../../images/outdoors-detail.jpg);       
+        min-height: 400px;   
+        .hero{
+            padding-top: 4rem;
+            h1 { font-size: 8rem; line-height: 8rem;}
+                
+        }
+    }
+    nav.breadcrumbs {    
+        margin-bottom: 3rem;    
+        
+    }
+    .book-cta-block {
+        min-height: 110px;
+        background-color: $blue;
+        .book-cta > div { margin-top: 1rem; }
+        h3 { color: white; font-size: 4rem; padding-right: 2rem;}
+        .yellow-btn, .orange-btn { width: 100%; margin-top: 1rem;}
+    }
+     .outdoors-detail-header {
+        min-height: 230px;
+        > div { 
+            padding-top: 1rem;
+            p { color: $grey; margin-bottom: 5rem;}
+        }
+    }
+    .map-view-block {
+        img { width: 100% }
+    }
+    .result-list-block {
+        .secondary-view {
+        padding: 2rem 0 1rem;
+        .content-block {
+            padding-left: 1rem;
+            .distance {
+                background-color: $blue;
+                padding: .5rem;
+                color: white;
+                clear: both;
+                margin: .25rem 0;
+                
+            }
+            h4 { 
+                margin:1.5rem auto .125rem; 
+                line-height: 1rem;
+                &:not(.title) {
+                    text-transform: capitalize;
+                    color: $grey;
+                    margin-top: 2rem;
+                }
+            }
+            p { margin-bottom: 0rem; line-height: 1.25rem;}
+            
+          
+         
+        } 
+            .img-block img{ width: 100%;}
+   
+       
+    }
+    .hr-divide-blue {background-size: 100%; background-position-x: left; padding: 0;}
+    }
+    .image-slider-block {
+        .slick-slide-block {
+        margin-bottom: 0px;   
+    }
+    .slider-nav{
+        margin-bottom: 0px;        
+        .slick-slide { 
+            min-height: 80px;
+            padding: 0px;
+            border: 1px $blue solid;
+            h3 { max-width: 54px; margin: 0px;}
+            
+        }
+    }
+    }
+   
+}
