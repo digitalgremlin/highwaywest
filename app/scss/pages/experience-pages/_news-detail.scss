@@ -1,7 +1,9 @@
 .news-detail-page {
     .full-width.hero {
-        background-image: url(../../images/grass-hero.jpg);      
-        .hero{   
+        background-image: url(../../images/grass-hero.jpg);  
+        min-height: 400px;
+        .hero{  
+            padding-top: 7rem;
             h1 { font-size: 9rem;}
                 
         }
@@ -10,14 +12,14 @@
         .center-buttons {
             li:not(.has-form) {                
                 
-                a:not(.button) { text-transform: uppercase; padding: 0 2.625rem;}
+                a:not(.button) { text-transform: uppercase; padding: 0 2.35rem;}
             
             }
         }   
     }
     .news-header {
         padding-top: 2rem;
-        .main-content {
+        .main-content {            
             .post-block {
             .post-heading { font-size: 4rem; margin-bottom: 0; line-height: 3rem;}
                 .post-date { margin: 0 auto .5rem; }
@@ -73,16 +75,15 @@
             }
         }
         h4 {
-            background-image: url(../../images/hr-divide-blue.png);
+            background-image: url(../../images/hr-divide-blue-2.png);
             background-repeat: no-repeat;
             background-position: left bottom;
-            text-indent: .75rem;
-            width: 70%;
+            text-indent: .5rem;            
             padding-bottom: .25rem;
         }
         .category-list {
             list-style: none;
-            
+            margin-left: 0;
             a { color: $grey;}
         }
     }

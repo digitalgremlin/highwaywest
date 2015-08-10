@@ -1,0 +1,115 @@
+div.row.full-width.gift-cards-page
+    <!-- begin hero+CTA section -->
+    div.row.full-width.hero.clearfix
+        div.hero.text-center.row
+            h1.happy-days Gift Cards  
+    <!-- begin gift cards header content block -->
+    div.row.full-width.gift-cards-header
+        div.large-10.columns.large-centered
+            p A Highway West Vacations gift card is ideal for just about any occasion. Birthdays, graduations, anniversaries, and just-becauses are all made extra special with the gift of camping. Really, who wouldn&#8217;t delight in perusing Highway West Vacations&#8217; directory and finding the trip of their dreams?
+
+            p Purchase your Highway West Vacations gift card below, and give the gift of camping today.
+    <!-- begin gift card block -->
+    div.row.full-width.gift-card-block(data-equalizer)
+        form
+            div.large-6.columns.payment-block(data-equalizer-watch)
+                div.large-9.large-offset-2.columns
+                    h3.happy-days.title Who's The Gift For?
+                    label Recipient's Name<sup>*</sup>
+                    input#name(type="text")
+                    label Personalize you gift with a custom message (optional)
+                    textarea#msg
+                    input#recipient(type="checkbox")
+                    label(for="#recipient") Would you like to send it directly to the recipient?
+                    div.large-12.columns
+                    ul.large-block-grid-2
+                        li
+                            label Email Address<sup>*</sup>
+                            input#email_a1(type="text")
+                        li
+                            label Repeat Email Address<sup>*</sup>
+                            input#email_a2(type="text")
+                    h3.happy-days Your Personal Information
+                    ul.large-block-grid-2
+                        li
+                            label First Name<sup>*</sup>
+                            input#fname(type="text")
+                        li
+                            label Last Name<sup>*</sup>
+                            input#lname(type="text")
+                    ul.large-block-grid-2
+                        li
+                            label Email Address<sup>*</sup>
+                            input#email_b1(type="text")
+                        li
+                            label Repeat Email Address<sup>*</sup>
+                            input#email_b2(type="text")
+                    h3.happy-days Payment Information
+                    label Card Holder Name<sup>*</sup>
+                    input#cc_name(type="text")
+                    div.large-8.columns
+                        label Card Number<sup>*</sup>
+                        input#cc_number(type="text")
+                    div.large-4.columns.pad-left
+                        label CVN<sup>*</sup> <a href"#" class="cc_info">(What's this?)</a>
+                        input#cc_cvn(type="text")
+                    label Expiration Date<sup>*</sup>
+                    div.large-4.columns.exp_month
+                        select
+                            option(value="default") Month
+                            option(value="01") 01
+                            option(value="02") 02
+                            option(value="03") 03
+                            option(value="04") 04
+                            option(value="05") 05
+                            option(value="06") 06
+                            option(value="07") 07
+                            option(value="08") 08
+                            option(value="09") 09
+                            option(value="10") 10
+                            option(value="11") 11
+                            option(value="12") 12
+                    div.large-4.columns.end.exp_year
+                        select
+                            option(value="default") Year
+                            option(value="2015") 2015
+                            option(value="2016") 2016
+                            option(value="2017") 2017
+                            option(value="2018") 2018
+                            option(value="2019") 2019
+                    div.large-12.columns
+                        input#terms(type="checkbox")
+                        label(for="terms") I agree with the <a href="#">Terms and Conditions</a>
+                div.large-1.columns
+                    div.arrow-right-white
+            div.large-6.columns.options-block(data-equalizer-watch)
+                div.large-8.large-centered.columns
+                    ul.large-block-grid-4.gift-options
+                        li
+                            a.orange-btn.active(href="#") $75
+                        li
+                            a.orange-btn(href="#") $150                            
+                        li
+                            a.orange-btn(href="#") $250
+                        li
+                            a.orange-btn(href="#") $400
+                    div.large-4.columns
+                        p.custom Custom Amount
+                    div.large-1.columns
+                        p.dollar $
+                    div.large-7.columns
+                        input#amount(type="text")
+                    div.large-12.columns.gift-amount-block
+                        div.large-2.large-offset-10.columns
+                            p.card-amount $75
+                    div.large-11.columns.gift-amount
+                        p Gift Certificate Amount
+                    div.large-1.columns
+                        p.card-amount $75
+                    div.large-12.columns.hr-divide-wht-2
+                    div.large-12.columns.sm-print
+                        p All transactions will be finalized for the total price displayed in US dollars. Rates displayed in other currencies are an estimation based on current exchange rates. Highway West Vacations gift certificates are valid for redemption at any camping site found on highwaywestvacations.com.
+                        h5 Non-Refundable
+                        p This gift certificate is not refundable; the amount can only be redeemed through Highway West Vacations&#8217; website in a single booking.
+                    div.large-4.columns.large-offset-4.end
+                        a.yellow-btn(href="#") Buy Now

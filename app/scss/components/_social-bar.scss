@@ -1,0 +1,22 @@
+.social {
+     
+        .social-icons {
+            width: 220px;
+            padding: 0;
+            margin: 0 auto;
+            li { 
+                display: inline-block; 
+                min-height: 30px;
+                min-width: 30px;
+                background: white;
+                margin: 0 5px;                   
+                &.fb { background-image: url(../../images/social-fb.png);  }
+                &.tw { background-image: url(../../images/social-tw.png); }
+                &.insta { background-image: url(../../images/social-insta.png); }
+                &.pt { background-image: url(../../images/social-pt.png); }
+                &.yt { background-image: url(../../images/social-yt.png); }
+                &.feed {background-image: url(../../images/social-feed.png); }
+                
+            }
+        }
+    }

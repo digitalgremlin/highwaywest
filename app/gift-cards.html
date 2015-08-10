@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation project</title>
+    <!-- build:css css/libraries.min.css-->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <!-- bower:css-->
+    <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick-theme.css">
+    <!-- endbower-->
+    <!-- endbuild-->
+    <!-- build:css css/app.min.css-->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app_override.css">
+    <!-- endbuild-->
+    <!-- build:js js/vendor/modernizr.min.js-->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild-->
+  </head>
+  <body><!-- header section -->
+    <div data-magellan-expedition="fixed" class="row header-section collapse">
+      <div class="nav-container row full-width"><a href="/"> 
+          <div class="large-3 large-offset-1 columns logo-section">   </div></a>
+        <dl class="sub-nav large-7 columns right collapse">
+          <dd data-magellan-arrival="#"><a href="booknstay.html" class="nav-button">BOOK + STAY</a></dd>
+          <dd data-magellan-arrival="#"><a href="experience.html" class="nav-button">THE EXPERIENCE</a></dd>
+          <dd data-magellan-arrival="#"> <a href="blog.html" class="nav-button">BLOG</a></dd>
+        </dl>
+      </div>
+    </div>
+    <div class="checkme-block row full-width">
+      <div class="large-12 columns clearfix show-for-large-up">
+        <div>
+          <form class="availability-widget">
+            <formfield>
+              <div class="large-3 columns">
+                <h5 class="text-right">Check Availability</h5>
+              </div>
+              <div class="large-3 columns">
+                <input type="text" placeholder="Check-In">
+              </div>
+              <div class="large-3 columns">
+                <input type="text" placeholder="Check-Out">
+              </div>
+              <div class="large-2 columns left"><a class="submit-btn">Book</a></div>
+            </formfield>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row full-width gift-cards-page"><!-- begin hero+CTA section -->
+      <div class="row full-width hero clearfix">
+        <div class="hero text-center row">
+          <h1 class="happy-days">Gift Cards  </h1>
+        </div>
+      </div><!-- begin gift cards header content block -->
+      <div class="row full-width gift-cards-header">
+        <div class="large-10 columns large-centered">
+          <p>A Highway West Vacations gift card is ideal for just about any occasion. Birthdays, graduations, anniversaries, and just-becauses are all made extra special with the gift of camping. Really, who wouldn&#8217;t delight in perusing Highway West Vacations&#8217; directory and finding the trip of their dreams?</p>
+          <p>Purchase your Highway West Vacations gift card below, and give the gift of camping today.</p>
+        </div>
+      </div><!-- begin gift card block -->
+      <div data-equalizer class="row full-width gift-card-block">
+        <form>
+          <div data-equalizer-watch class="large-6 columns payment-block">
+            <div class="large-9 large-offset-2 columns">
+              <h3 class="happy-days title">Who's The Gift For?</h3>
+              <label>Recipient's Name<sup>*</sup></label>
+              <input id="name" type="text">
+              <label>Personalize you gift with a custom message (optional)</label>
+              <textarea id="msg"></textarea>
+              <input id="recipient" type="checkbox">
+              <label for="#recipient">Would you like to send it directly to the recipient?</label>
+              <div class="large-12 columns"></div>
+              <ul class="large-block-grid-2">
+                <li>
+                  <label>Email Address<sup>*</sup></label>
+                  <input id="email_a1" type="text">
+                </li>
+                <li>
+                  <label>Repeat Email Address<sup>*</sup></label>
+                  <input id="email_a2" type="text">
+                </li>
+              </ul>
+              <h3 class="happy-days">Your Personal Information</h3>
+              <ul class="large-block-grid-2">
+                <li>
+                  <label>First Name<sup>*</sup></label>
+                  <input id="fname" type="text">
+                </li>
+                <li>
+                  <label>Last Name<sup>*</sup></label>
+                  <input id="lname" type="text">
+                </li>
+              </ul>
+              <ul class="large-block-grid-2">
+                <li>
+                  <label>Email Address<sup>*</sup></label>
+                  <input id="email_b1" type="text">
+                </li>
+                <li>
+                  <label>Repeat Email Address<sup>*</sup></label>
+                  <input id="email_b2" type="text">
+                </li>
+              </ul>
+              <h3 class="happy-days">Payment Information</h3>
+              <label>Card Holder Name<sup>*</sup></label>
+              <input id="cc_name" type="text">
+              <div class="large-8 columns">
+                <label>Card Number<sup>*</sup></label>
+                <input id="cc_number" type="text">
+              </div>
+              <div class="large-4 columns pad-left">
+                <label>CVN<sup>*</sup> <a href"#" class="cc_info">(What's this?)</a></label>
+                <input id="cc_cvn" type="text">
+              </div>
+              <label>Expiration Date<sup>*</sup></label>
+              <div class="large-4 columns exp_month">
+                <select>
+                  <option value="default">Month</option>
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="large-4 columns end exp_year">
+                <select>
+                  <option value="default">Year</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                </select>
+              </div>
+              <div class="large-12 columns">
+                <input id="terms" type="checkbox">
+                <label for="terms">I agree with the <a href="#">Terms and Conditions</a></label>
+              </div>
+            </div>
+            <div class="large-1 columns">
+              <div class="arrow-right-white"></div>
+            </div>
+          </div>
+          <div data-equalizer-watch class="large-6 columns options-block">
+            <div class="large-8 large-centered columns">
+              <ul class="large-block-grid-4 gift-options">
+                <li><a href="#" class="orange-btn active">$75</a></li>
+                <li><a href="#" class="orange-btn">$150                            </a></li>
+                <li><a href="#" class="orange-btn">$250</a></li>
+                <li><a href="#" class="orange-btn">$400</a></li>
+              </ul>
+              <div class="large-4 columns">
+                <p class="custom">Custom Amount</p>
+              </div>
+              <div class="large-1 columns">
+                <p class="dollar">$</p>
+              </div>
+              <div class="large-7 columns">
+                <input id="amount" type="text">
+              </div>
+              <div class="large-12 columns gift-amount-block">
+                <div class="large-2 large-offset-10 columns">
+                  <p class="card-amount">$75</p>
+                </div>
+              </div>
+              <div class="large-11 columns gift-amount">
+                <p>Gift Certificate Amount</p>
+              </div>
+              <div class="large-1 columns">
+                <p class="card-amount">$75</p>
+              </div>
+              <div class="large-12 columns hr-divide-wht-2"></div>
+              <div class="large-12 columns sm-print">
+                <p>All transactions will be finalized for the total price displayed in US dollars. Rates displayed in other currencies are an estimation based on current exchange rates. Highway West Vacations gift certificates are valid for redemption at any camping site found on highwaywestvacations.com.</p>
+                <h5>Non-Refundable</h5>
+                <p>This gift certificate is not refundable; the amount can only be redeemed through Highway West Vacations&#8217; website in a single booking.</p>
+              </div>
+              <div class="large-4 columns large-offset-4 end"><a href="#" class="yellow-btn">Buy Now</a></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row full-width foot">
+      <div class="large-4 columns clearfix links-nav">
+        <ul class="menu right menu-right">
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="gift-cards.html">Gift Cards</a></li>
+          <li><a href="press.html">Press</a></li>
+          <li><a href="invest.html">Invest</a></li>
+        </ul>
+        <ul class="menu left menu-left">
+          <li><a href="/">Home</a></li>
+          <li><a href="booknstay.html">Book + Stay</a></li>
+          <li><a href="experience.html">The Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="large-3 columns join">
+        <h4>Join Our Journey</h4>
+        <form>
+          <fieldset>
+            <div class="row">
+              <div class="large-10 columns">                       
+                <input type="text" placeholder="Email Address">
+              </div>
+              <div class="large-2 columns end"><a href="#" class="postfix join-btn"></a></div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="large-4 columns social left">
+        <ul class="social-icons"><a href="#">
+            <li class="left fb"></li></a><a href="#">
+            <li class="left tw"></li></a><a href="#">
+            <li class="left insta"></li></a><a href="#">
+            <li class="left pt"></li></a><a href="#">
+            <li class="left yt"></li></a></ul>
+        <div class="copy">
+          <p class="text-center">&copy; 2015 Highway West Vacation </p>
+        </div>
+      </div>
+    </div>
+    <!-- build:js js/vendor/libraries.min.js-->
+    <!-- bower:js-->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="../bower_components/jquery.cookie/jquery.cookie.js"></script>
+    <script src="../bower_components/slick-carousel/slick/slick.min.js"></script>
+    <!-- endbower-->
+    <!-- endbuild-->
+    <!-- build:js js/vendor/foundation.min.js-->
+    <script src="bower_components/foundation/js/foundation/foundation.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.alert.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.joyride.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.slider.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+    <!-- endbuild-->
+    <!-- build:js js/app.min.js-->
+    <script src="js/app.js"></script>
+    <!-- endbuild-->
+  </body>
+</html>

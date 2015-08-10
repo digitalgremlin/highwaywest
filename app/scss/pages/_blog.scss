@@ -1,0 +1,113 @@
+.blog-page {
+    .full-width.hero {
+        background-image: url(../../images/blog-hero.jpg);
+        min-height: 400px;       
+        .hero{
+            padding-top: 7rem;
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+    nav {
+        .center-buttons {
+            li:not(.has-form) {                
+                
+                a:not(.button) { text-transform: uppercase; padding: 0 2.625rem;}
+            
+            }
+        }   
+    }
+    .blog-header {
+        padding-top: 4rem;
+        .main-content {
+            .post-block {
+            .post-heading { font-size: 4rem; margin-bottom: 0; line-height: 3rem;}
+                .post-date { margin: 0 auto .5rem; }
+            .post-image {
+                img { margin-bottom: 2rem; width: 100%;}
+            }
+            .post-text { color: $grey; }
+        }
+        .yellow-btn { padding: .625rem 1.625rem; text-transform: uppercase;}
+        .hr-divide-blue { min-width: auto; background-size: 100%; padding: 1rem 0;}
+            .pagination {
+                .arrow {
+                    a { color: $yellow; font-size: 1.5rem; vertical-align: top;}
+                    &:nth-of-type(1) a:before {
+                        content: '';
+                        background-image: url(../../images/arrow-triple-yellow.png);
+                        background-position: left bottom;
+                        background-repeat: no-repeat;
+                        min-height: 35px;
+                        min-width: 68px;                        
+                        margin-right: 1rem;
+                        display: inline-block;
+                    }
+                    &:nth-of-type(2) a:after {
+                        content: '';
+                        background-image: url(../../images/arrow-triple-yellow-2.png); 
+                        background-position: left bottom;
+                        background-repeat: no-repeat;
+                        min-height: 35px;
+                        min-width: 68px;
+                        margin-left: 1rem;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        
+        
+        .side-bar {
+                form {
+              
+                    margin: 0;
+                    padding: 2px 2px 2px 0;
+                    border: none;
+                    input[type='text'] {
+                        border-right: none;
+                        &::-webkit-input-placeholder {
+                           color: $blue;
+                        }
+                        &:-moz-placeholder { /* Firefox 18- */
+                           color: $blue;  
+                        }
+                        &::-moz-placeholder {  /* Firefox 19+ */
+                           color: $blue;  
+                        }
+                        &:-ms-input-placeholder {  
+                           color: $blue;  
+                        }
+                    }
+                    .join-btn {
+                        border: 1px solid #ccc;
+                        border-left: none;
+                        background-image: url(../../images/arrow-2.png);                    
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        min-height: 18px;
+                        min-width: 18px;
+                    }          
+
+            }
+            .yellow-btn { padding: .625rem 1.625rem; text-transform: uppercase;}
+              h4 {
+            background-image: url(../../images/hr-divide-blue-2.png);
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            text-indent: .5rem;            
+            padding-bottom: .25rem;
+        }
+        .category-list {
+            margin-left: 0;
+            list-style: none;
+            
+            a { color: $grey;}
+            }
+            .social-icons { margin-top: .5rem; }          
+        }
+      
+    }  
+    
+}
+

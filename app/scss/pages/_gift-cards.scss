@@ -1,0 +1,104 @@
+.gift-cards-page {
+    .full-width.hero {
+        background-image: url(../../images/gift-card.jpg);     
+        min-height: 400px;        
+        
+        .hero{ 
+            padding-top: 7rem;
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+   
+     .gift-cards-header.full-width {
+         background-image: url(../../images/texture-bg-3.jpg);
+         background-repeat: repeat-x;         
+         min-height: 235px;
+        > div { 
+            padding-top: 3rem;
+            p { color: $grey; }
+        }
+    }
+    .gift-card-block {
+        .payment-block {
+           
+            
+            h3 {
+                margin:0;
+                &.title { margin-top: 2rem; }
+            }
+            label {color: $blue; }
+            input[type="text"] {height: 30px;}
+            select { 
+                height: 30px; 
+                padding: 0 1rem;
+                color: $blue;
+                background-image: url(../../images/arrow-1.png);
+                background-position-x: 96%; 
+            }
+            a:not(.button){color: $blue; text-decoration: underline;}
+            .pad-left { padding-left: 1rem;}
+            .exp_month {padding-right: .5rem;}
+            .exp_year {padding-left: .5rem;}
+            
+            
+        }
+        .arrow-right-white {
+            background-image: url(../../images/arrow-white.png);
+            background-repeat: no-repeat;
+            position: absolute;
+            top: .5rem;
+            right: -2.5rem;
+            z-index: 9;
+            height: 107px;
+            width: 50px;
+        }
+        .options-block {
+            padding-top: 4rem;
+            background-color: $blue;
+           
+            > div { padding: 0 1rem; }
+            .gift-options {
+                .orange-btn {
+                    
+                     box-sizing:border-box;
+                    -moz-box-sizing:border-box;
+                    -webkit-box-sizing:border-box;                    
+                    font-family: $gothic-bold;
+                    width: 81px;
+                    height: 40px;
+                    padding: .625rem;
+                    &.active {border: inset 4px #00aeef; padding: .325rem;}
+                }
+            }
+            p {
+                color: white;
+                
+                &.custom { margin: .5rem auto 0;}
+            }
+           
+            .dollar {font-family: $gothic-bold; color: $orange; font-size: 1.5rem;}
+            .gift-amount-block {
+                min-height: 200px;
+                background-color: white;
+                background-image: url(../../images/logo.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 5px;
+                .card-amount { font-family: $gothic-bold; color: $orange; font-size: 1.5rem;}
+               
+            }
+            .gift-amount {
+                p { margin: .5rem auto 0px;}
+            }
+            .card-amount {  margin: .5rem auto 0px; }
+            .sm-print {
+                padding-top: 1rem;
+                h5 {color: white; font-size: 1rem; text-transform: capitalize; margin-bottom: .125rem;}
+                p { font-size: .75rem;}
+            }
+            .yellow-btn { padding: .5rem; width: 100%;}
+        }
+    }
+   
+}

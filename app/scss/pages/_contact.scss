@@ -1,0 +1,45 @@
+.contact-page {
+    .full-width.hero {
+        background-image: url(../../images/smores-2.jpg);       
+        min-height: 400px;        
+        .hero{
+            padding-top: 7rem;
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+   
+     .contact-form.full-width {
+        background-color: $blue;
+        margin-bottom: 2rem;
+        > div { 
+            color: white;
+            padding-top: 3rem;
+            h3 { } 
+            p,label { color: white; }
+            form {
+                padding-left: 1rem;
+                
+                li {
+                    padding-right: 2.5rem;
+                &:nth-of-type(2) { padding-left: 1rem;}
+                      select { 
+                            color: $blue;
+                            background-image: url(../../images/arrow-1.png);
+                            background-position-x: 98%; 
+                    }
+                }
+                textarea { width: 97%; min-height: 6rem;}
+                .yellow-btn { width: 100%; text-transform: uppercase; font-family: $gothic-bold; padding: .5rem 0;}
+                
+              
+            }
+        }
+    }
+     .contact-content.full-width {       
+        margin-bottom: 2rem;
+        > div {            
+            padding-top: 2rem;
+        }
+     }
+}

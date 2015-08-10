@@ -1,7 +1,9 @@
 .experience-page {
     .full-width.hero {
-        background-image: url(../../images/glamping.jpg);      
-        .hero{   
+        background-image: url(../../images/glamping.jpg); 
+        min-height: 400px;
+        .hero{  
+            padding-top: 7rem;
             h1 { font-size: 9rem;}
                 
         }
@@ -10,7 +12,7 @@
         .center-buttons {
             li:not(.has-form) {                
                 
-                a:not(.button) { text-transform: uppercase; padding: 0 2.625rem;}
+                a:not(.button) { text-transform: uppercase; padding: 0 2.35rem;}
             
             }
         }   

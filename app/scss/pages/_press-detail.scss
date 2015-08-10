@@ -1,0 +1,51 @@
+.press-detail-page {
+    .full-width.hero {
+        background-image: url(../../images/press.jpg);       
+        min-height: 400px;        
+        
+        .hero{ 
+            padding-top: 7rem;
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+   
+     .press-detail-header.full-width {
+        margin-bottom: 2rem;
+        > div { 
+            padding-top: 3rem;
+            h4 { 
+                color: $grey; 
+                text-transform: capitalize;
+                margin-bottom: 0;
+                font-size: 1.23rem;
+                line-height: 1rem;
+            }
+            p { color: $grey; }
+        }
+         .post-heading { font-size: 4rem; margin-bottom: 0; line-height: 3rem;}
+         .post-date { margin: 0 auto .5rem; color: $blue;}
+         .press-image { float: left; margin: 0 2rem 5rem 0; }
+    }
+    .hr-divide-blue { min-width: auto; background-size: 100%; padding: .5rem 0;}
+    nav.breadcrumbs {    
+                
+                  a {                                         
+                  
+                  &:before {
+                content: '';
+                background-image: url(../../images/arrow-triple-yellow.png);
+                background-repeat: no-repeat;
+                 background-position: left 2px;
+                min-height: 30px;
+                min-width: 68px;
+                margin-right: .5rem;
+                display: inline-block;
+                    }
+                  }
+
+            }
+   
+    
+}
+

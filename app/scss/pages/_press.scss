@@ -1,0 +1,39 @@
+.press-page {
+    .full-width.hero {
+        background-image: url(../../images/press.jpg);       
+        min-height: 400px;        
+        
+        .hero{ 
+            padding-top: 7rem;
+            h1 { font-size: 9rem;}
+                
+        }
+    }
+   
+     .press-header.full-width {
+        margin-bottom: 2rem;
+        > div { 
+            padding-top: 3rem;
+            p { color: $grey; }
+        }
+    }
+    .profile-grid {
+        .image-block {
+            img { width: 100%;}       
+        }
+        .text-block {
+            h4 { 
+                margin: 1rem auto 0;
+                line-height: 1.5rem;
+                text-transform: capitalize;
+                font-size: 1.25rem;
+            }
+            p {
+                margin: 0 auto 0;
+                line-height: 1rem;
+            }
+        }   
+    }
+    
+}
+
